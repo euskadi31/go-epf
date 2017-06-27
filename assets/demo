@@ -1,0 +1,14 @@
+#export_dateidname
+#primaryKey:id
+#dbTypes:BIGINTINTEGERVARCHAR(200)
+#exportMode:FULL
+##legal: IMPORTANT: The Apple Enterprise Partner Feed and data incorporated therein ("EPF")
+##legal: 
+14901732010201item 1
+14901732010202item 2
+14901732010203item 3
+14901732010204item 4
+14901732010205item 5
+14901732010206item 6
+14901732010207item 7
+#recordsWritten:7
