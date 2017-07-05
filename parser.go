@@ -7,6 +7,7 @@ import (
 	"os"
 	"strconv"
 	"strings"
+	"time"
 )
 
 // Error type
@@ -83,6 +84,8 @@ func (p Parser) convertType(value string, t string) (interface{}, error) {
 		}
 
 		return false, nil
+	case "DATETIME":
+		return time.Parse("2006 01 02", value)
 	default:
 		return value, nil
 	}
